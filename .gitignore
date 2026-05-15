@@ -1,0 +1,41 @@
+/ISA-PicoMEM/
+/.claude/
+
+# Local assembler output
+*.OBJ
+*.LST
+*.MAP
+*.EXE~
+*.COM~
+
+# One-off reverse-engineering probes and failed builds kept out of the repo.
+/C18*
+/C38*
+/C90*
+/C98*
+/CBLANK.COM
+/CBOX*.COM
+/CBOX*.SCR
+/CORONA_BOX.ASM
+/CORONA_BOX_DEBUG.SCR
+/CORONA_BLANK_DEBUG.SCR
+/CORONA_PAGES_DEBUG.SCR
+/CORONA_PAGE_SCAN.ASM
+/CPAGES.COM
+/CGA105_TEST.ASM
+/CGA105_ks_failed.asm
+/CGATEST_fail.asm
+/fail_*.asm
+/ROLLING_ASCII.BAS
+
+# Root copies are the local working bench; published copies live in src/,
+# bin/, debug-scripts/, and basic/.
+/CGA105.ASM
+/CGA105.COM
+/CGA105.SCR
+/CGATEST.COM
+/CGATEST.SCR
+/CPROBE.COM
+/CPROBE.SCR
+/GWBASIC.EXE
+/ROLLING.BAS

@@ -1,0 +1,6 @@
+*.COM binary
+*.EXE binary
+*.BAS binary
+*.SCR text eol=crlf
+*.ASM text eol=crlf
+*.md text eol=lf
